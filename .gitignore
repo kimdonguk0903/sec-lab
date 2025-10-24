@@ -1,0 +1,17 @@
+# Ignore virtual machine files and large binaries
+*.iso
+*.vdi
+*.vmdk
+.vagrant/
+
+# Editor/temp files
+*.swp
+*~
+.vscode/
+.DS_Store
+
+# Build artifacts
+*.o
+*.out
+*.exe
+
