@@ -11,7 +11,7 @@
 ## 🧩 오늘 실습 내용
 
 ### 1️⃣ 변수 추적 및 스택 관찰
-**파일:** `day3-gdb-valgrind/basic_stack.c`
+**파일:** `./basic_stack.c`
 
 - 간단한 C 프로그램을 작성하고 GDB를 이용하여:
   - `print` 명령으로 변수 값 확인
@@ -31,7 +31,7 @@ gdb ./basic_stack
 (gdb) continue
 ```
 ### 2️⃣ 함수 호출 스택 추적
-**파일:** `day3-gdb-valgrind/stack_trace.c`
+**파일:** `./stack_trace.c`
 
 - 함수 호출 시 스택 프레임 확인 (backtrace, info locals)
 - 스택 주소 감소와 함수별 지역 변수 관찰
@@ -58,7 +58,7 @@ gdb ./stack_trace
 - 프로그램 종료 후에는 스택이 사라져 backtrace 명령에서 "No stack." 메시지 출력
 
 ### 3️⃣ 스택 vs 힙 메모리 비교
-**파일:** `day3-gdb-valgrind/memory_compare.c`
+**파일:** `./memory_compare.c`
 
 - 스택 변수와 힙 변수 주소 확인
 - 스택과 힙의 메모리 영역 차이 관찰
