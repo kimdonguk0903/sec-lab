@@ -29,7 +29,7 @@ gdb ./basic_stack
 (gdb) print a
 (gdb) print &a
 (gdb) continue
-
+```
 ### 2️⃣ 함수 호출 스택 추적
 **파일:** `day3-gdb-valgrind/stack_trace.c`
 
@@ -50,7 +50,7 @@ gdb ./stack_trace
 (gdb) print &y
 (gdb) print &z
 (gdb) print &num
-
+```
 관찰 내용
 
 - 스택 프레임 생성 순서: main → funcA → funcB → funcC
@@ -74,7 +74,7 @@ gdb ./memory_compare
 (gdb) x/4x heap_var
 (gdb) continue
 (gdb) quit
-
+```
 관찰 내용
 
 - 스택 변수(stack_var) 주소: 높은 메모리 영역 (0x7ffffff...)
